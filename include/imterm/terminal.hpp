@@ -308,6 +308,10 @@ namespace ImTerm {
 			m_allow_y_resize = allowed;
 		}
 
+		void use_default_size() noexcept {
+			m_update_height = m_update_width = false;
+		}
+
 	    // executes a statement, simulating user input
 	    // returns false if given string is too long to be interpreted
 	    // if true is returned, any text inputed by the user is overridden
