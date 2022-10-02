@@ -22,7 +22,7 @@
 #include <array>
 
 #include "terminal.hpp"
-#if __has_include("spdlog/spdlog.h")
+#if __has_include("spdlog/spdlog.h") && defined(IMTERM_USE_SPDLOG)
 #include "spdlog/common.h"
 #include "spdlog/formatter.h"
 #include "spdlog/pattern_formatter.h"

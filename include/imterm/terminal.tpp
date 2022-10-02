@@ -28,6 +28,9 @@
 #include <regex>
 #endif
 
+#include <string_view>
+#include <memory>
+
 #include "misc.hpp"
 
 namespace ImTerm {
