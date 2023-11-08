@@ -20,10 +20,13 @@
 
 
 
+#include <system_error>
 #include <utility>
 #include <iterator>
 #include <functional>
 #include <type_traits>
+#include <algorithm>
+#include <string_view>
 
 namespace misc {
 
